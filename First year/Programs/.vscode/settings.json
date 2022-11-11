@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "Q1.C": "cpp",
+        "q.C": "cpp",
+        "q_1.C": "cpp",
+        ".C": "cpp",
+        "Q1_3_.C": "cpp",
+        "stdio.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}
