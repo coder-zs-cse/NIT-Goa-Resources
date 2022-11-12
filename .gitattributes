@@ -5,3 +5,4 @@ First[[:space:]]year/Lectures filter=lfs diff=lfs merge=lfs -text
 First[[:space:]]year/Books filter=lfs diff=lfs merge=lfs -text
 Second[[:space:]]year/Books filter=lfs diff=lfs merge=lfs -text
 Second[[:space:]]year/Lectures filter=lfs diff=lfs merge=lfs -text
+Second[[:space:]]year/Qpapers filter=lfs diff=lfs merge=lfs -text
