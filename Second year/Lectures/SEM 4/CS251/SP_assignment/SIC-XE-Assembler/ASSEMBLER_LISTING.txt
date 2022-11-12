@@ -1,0 +1,51 @@
+000000    COPY	   START 	  000000     
+000000    FIRST	   STL	    RETADR     172030
+000003    	       LDB	    #LENGTH     690000
+000006    CLOOP	   +JSUB	  RDREC      4B101039
+00000A    	       LDA	    LENGTH      032029
+00000D    	       COMP	    #0         290000
+000010    	       JEQ	    ENDFIL      332007
+000013    	       +JSUB	  WRREC       4B101060
+000017    	       J	      CLOOP       3F2FEC
+00001A    ENDFIL	 LDA	    EOF         032010
+00001D    	       STA	    BUFFER      0F2019
+000020    	       LDA	    #3          010003
+000023    	       STA	    LENGTH      0F2010
+000026    	       +JSUB	  WRREC       4B101060
+00002A    	       J	      @RETADR     3E2006
+00002D    EOF	     BYTE	    C'EOF'    454F46
+000030    VAL      EQU      4096      
+000033    RETADR	 RESW	    1          
+000036    LENGTH	 RESW	    1          
+000039    BUFFER	 RESB	    4096       
+.
+.	SUBROUTINE TO READ RECORD INTO BUFFER
+.
+001039    RDREC	   CLEAR	  X          B410
+00103B    	       CLEAR	  A           B400
+00103D    	       CLEAR	  S           B440
+00103F    	       +LDT	    #VAL       77100000
+001043    RLOOP	   TD	      INPUT     E32019
+001046    	       JEQ	    RLOOP       332FFA
+001049    	       RD	      INPUT      DB2013
+00104C          	 COMPR	  A,S         A004
+00104E    	       JEQ	    EXIT        332008
+001051     	       STCH	    BUFFER,X  57C003
+001054    	       TIXR	    T          B850
+001056    	       JLT	    RLOOP       3B2FEA
+001059    EXIT	   STX	    LENGTH      132FDA
+00105C          	 RSUB                4F0000
+00105F    INPUT	   BYTE	    X'F1'     F1
+.
+.	SUBROUTINE TO WRITE RECORD FROM BUFFER
+.
+001060    WRREC	   CLEAR	  X          B410
+001062    	       LDT	    LENGTH      772FD1
+001065    WLOOP	   TD	      OUTPUT    E32011
+001068    	       JEQ	    WLOOP       332FFA
+00106B    	       LDCH	    BUFFER,X   53C003
+00106E    	       WD	      OUTPUT     DF2008
+001071    	       TIXR	    T          B850
+001073    	       JLT	    WLOOP       3B2FEF
+001076      	     RSUB                4F0000
+001079    OUTPUT	 BYTE	    X'05'      05
