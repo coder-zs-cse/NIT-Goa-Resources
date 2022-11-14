@@ -1,0 +1,3 @@
+HOSTNAME=$(hostname)
+echo "$HOSTNAME"
+
