@@ -1,0 +1,5 @@
+Develop a C program that writes the contents of one or more files in succession 
+to standard output. (That is, the program writes the concatenation of a number of 
+files  to  standard  output.)  The  sequence  of  files  to  be  processed  should  be 
+specified  as  command-line  arguments  (i.e.,  via  the  arguments  passed  to  the 
+main function).

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\Documents_D_Drive\~NIT study\NIT Goa\Second year\Lab\OOP_lab\20CSE1030_09-05-2022\.metadata\.plugins\org.eclipse.jdt.core
+1167275426.index
+1865797976.index
+504118304.index
+3452173863.index

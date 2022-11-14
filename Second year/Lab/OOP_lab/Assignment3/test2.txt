@@ -1,0 +1,6 @@
+Write  a  C++  function  copy_ints  that  copies  a  specified  number  of  ints  from  one 
+memory  area  to  another.  The  function  should  have  a  void  return  type  and  take 
+the following parameters: 1) a pointer specifying the start of the source area for 
+the copy operation; 2) an integral type specifying how many ints to copy, and 3) a 
+pointer  specifying  the  start  of  the  destination  area  for  the  copy  operation.  Test 
+the function writing main function.

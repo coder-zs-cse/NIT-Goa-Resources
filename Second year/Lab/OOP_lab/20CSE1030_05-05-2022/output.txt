@@ -1,0 +1,2 @@
+This is a file.
+And there are a lot of blank spaces inside. 

@@ -8,3 +8,6 @@ Second[[:space:]]year/Lectures filter=lfs diff=lfs merge=lfs -text
 Second[[:space:]]year/Qpapers filter=lfs diff=lfs merge=lfs -text
 Third[[:space:]]year filter=lfs diff=lfs merge=lfs -text
 Second[[:space:]]year/Lab/DS filter=lfs diff=lfs merge=lfs -text
+Second[[:space:]]year/Lab filter=lfs diff=lfs merge=lfs -text
+Second[[:space:]]year/lab/ filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,10 @@
+package pkg11;
+
+public class add_inte {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
