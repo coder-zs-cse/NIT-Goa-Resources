@@ -14,3 +14,4 @@ If you find any lecture notes/ important book pdf/ question paper, etc missing t
 
 Sharing is Caring❤️
 
+PS: currently the 2nd, 3rd year resources are of CSE branch
