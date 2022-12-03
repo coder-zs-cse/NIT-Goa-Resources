@@ -8,7 +8,7 @@
 </div>
 
 ## This repository aims to cache the flow of resources from seniors to juniors
-### Idea behind using GitHub as a platform is to give exposure to tech students to get familiarize with Git and GitHub at the same time.
+### Idea behind using GitHub as a platform is to give Git & GitHub exposure to tech students at the same time.
 
 If you find any lecture notes/ important book pdf/ question paper, etc missing then feel free to add the resource by initiating a pull request. 
 
