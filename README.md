@@ -12,6 +12,8 @@
 
 If you find any lecture notes/ important book pdf/ question paper, etc missing then feel free to add the resource by initiating a pull request. 
 
+Do give a star ⭐ for the repo, if it was helpful to you in anyway🌟 
+
 Sharing is Caring❤️
 
 PS: currently the 2nd, 3rd year resources are of CSE branch
