@@ -1,7 +1,7 @@
 # Hello There! 👋 <br>
 # Welcome to this repository!
 
-## Are you a tech student at NIT Goa looking for academic resources? 
+## Are you a student at NIT Goa looking for academic resources? 
 ## Look no further! This repository is the ultimate one-stop-shop for all your needs.
 ## Find all books📚, lecture slides🗈, programs💻, question papers📜, notes🗊, resources🔎, etc all treasured into this repository.
 
