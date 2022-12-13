@@ -9,10 +9,10 @@
   <img src="https://media.giphy.com/media/HYVZ1CGO7M3yMYVBxk/giphy.gif" width="30%"/>
 </div>
 
-## This repository aims to cache the flow of resources from seniors to juniors
+## This repository aims to cache the flow of resources from seniors to juniors.
 ### Idea behind using GitHub as a platform is to give Git & GitHub exposure to tech students at the same time.
 
-If you find any lecture notes/ important book pdf/ question paper, etc missing then feel free to add the resource by initiating a pull request.  
+If you find any lecture notes/ important book pdfs/ question papers, etc missing, then feel free to add the resource by initiating a pull request, or you may raise an issue or follow up on an existing issue. 😄 
 
 Do give a star ⭐ for the repo, if it was helpful to you in anyway🌟 
 
